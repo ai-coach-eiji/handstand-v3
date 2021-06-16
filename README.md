@@ -13,4 +13,4 @@ Video is now supported as well as images.
 
 
 # License
-- This application is under [Apache License 2.0](https://github.com/ai-coach-eiji/handstand-v2/blob/main/LICENSE).
+- This application is under [Apache License 2.0](https://github.com/ai-coach-eiji/handstand-v3/blob/main/LICENSE).
