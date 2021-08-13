@@ -5,6 +5,7 @@ Video is now supported as well as images.
 # Reference
 - Pose estimation: [MediaPipe](https://github.com/google/mediapipe)
 - App design: [Fazt](https://www.youtube.com/watch?v=Q2imkhmhOFo&ab_channel=Fazt)
+- Form design: [Yuki.world](https://yuki.world/apply-bootstrap4-to-django-form/)
 - Opencv coding: [codec](https://stackoverflow.com/questions/52446597/cant-view-opencv-processed-videos-in-django)
 
 
