@@ -14,7 +14,7 @@ Video is now supported as well as images.
 - Model loading2: [Pyplane](https://www.youtube.com/watch?v=q2v8SlRdaag&ab_channel=Pyplane)
 - File size: [AnkitMishra16](https://www.geeksforgeeks.org/validation-of-file-size-while-uploading-using-javascript-jquery/)
 - Form design: [Kal Walkden](https://github.com/kalwalkden/django-materializecss-form)
-- 
+- Form update: [Django](https://docs.djangoproject.com/en/3.2/ref/models/instances/#how-django-knows-to-update-vs-insert)
 
 
 # Author
