@@ -10,8 +10,11 @@ Video is now supported as well as images.
 - Opencv coding: [codec](https://stackoverflow.com/questions/52446597/cant-view-opencv-processed-videos-in-django)
 - Progress bar: [Pyplane](https://www.youtube.com/watch?v=lx0I_nsxvPc&ab_channel=Pyplane)
 - Progress bar2: [Skywill](https://www.sw-mono.blog/entry/2020/01/06/140153)
-- Model Loading: [BLOG AND DESTROY](https://blog-and-destroy.com/7283)
-- Model Loading2: [Pyplane](https://www.youtube.com/watch?v=q2v8SlRdaag&ab_channel=Pyplane)
+- Model loading: [BLOG AND DESTROY](https://blog-and-destroy.com/7283)
+- Model loading2: [Pyplane](https://www.youtube.com/watch?v=q2v8SlRdaag&ab_channel=Pyplane)
+- File size: [AnkitMishra16](https://www.geeksforgeeks.org/validation-of-file-size-while-uploading-using-javascript-jquery/)
+- Form design: [Kal Walkden](https://github.com/kalwalkden/django-materializecss-form)
+- 
 
 
 # Author
