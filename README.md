@@ -5,6 +5,7 @@ Video is now supported as well as images.
 # Reference
 - Pose estimation: [MediaPipe](https://github.com/google/mediapipe)
 - App design: [Materialize](https://materializecss.com/about.html)
+- App design2: [Bootstrap](https://getbootstrap.jp/docs/4.2/components/spinners/)
 - Overlay labels: [Design memo](https://www.design-memo.com/webdesign/overlay-label)
 - Photo gallery: [Pecopla](https://pecopla.net/web-column/flexbox-1)
 - Opencv coding: [codec](https://stackoverflow.com/questions/52446597/cant-view-opencv-processed-videos-in-django)
