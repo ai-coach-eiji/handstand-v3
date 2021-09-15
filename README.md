@@ -8,7 +8,7 @@ Video is now supported as well as images.
 - [x] ~~Progress bar~~
 - [x] ~~Labeling the estimated videos~~
 - [x] ~~Image layout~~
-- [x] ~~Loading modal~~
+- [x] ~~Loading modal with spinner~~
 - [ ] Confirmation modal
 - [x] ~~Voice processing~~
 - [x] ~~Mute implementation~~
