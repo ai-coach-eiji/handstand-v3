@@ -2,6 +2,25 @@
 Video is now supported as well as images.
 
 
+# ToDo (including future works)
+- [x] ~~Button decoration~~
+- [x] ~~Video weight reduction~~
+- [x] ~~Progress bar~~
+- [x] ~~Labeling the estimated videos~~
+- [x] ~~Image layout~~
+- [x] ~~Loading modal~~
+- [ ] Confirmation modal
+- [x] ~~Voice processing~~
+- [x] ~~Mute implementation~~
+- [x] ~~Thumbnail from video~~
+- [x] ~~Implementation of video caption~~
+- [ ] Codec problem
+- [ ] Video duration
+- [ ] Dealing the muted video
+- [ ] Implementation of cancel event
+- [ ] Fixing the background
+
+
 # Reference
 - Pose estimation: [MediaPipe](https://github.com/google/mediapipe)
 - App design: [Materialize](https://materializecss.com/about.html)
