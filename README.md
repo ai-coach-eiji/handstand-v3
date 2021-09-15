@@ -4,7 +4,7 @@ Video is now supported as well as images.
 
 # Reference
 - Pose estimation: [MediaPipe](https://github.com/google/mediapipe)
-- App design: [Fazt](https://www.youtube.com/watch?v=Q2imkhmhOFo&ab_channel=Fazt)
+- App design: [Materialize](https://materializecss.com/about.html)
 - Overlay labels: [Design memo](https://www.design-memo.com/webdesign/overlay-label)
 - Photo gallery: [Pecopla](https://pecopla.net/web-column/flexbox-1)
 - Opencv coding: [codec](https://stackoverflow.com/questions/52446597/cant-view-opencv-processed-videos-in-django)
@@ -15,6 +15,7 @@ Video is now supported as well as images.
 - File size: [AnkitMishra16](https://www.geeksforgeeks.org/validation-of-file-size-while-uploading-using-javascript-jquery/)
 - Form design: [Kal Walkden](https://github.com/kalwalkden/django-materializecss-form)
 - Form update: [Django](https://docs.djangoproject.com/en/3.2/ref/models/instances/#how-django-knows-to-update-vs-insert)
+- 
 
 
 # Author
