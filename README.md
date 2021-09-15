@@ -16,7 +16,7 @@ Video is now supported as well as images.
 - [x] ~~Implementation of video caption~~
 - [ ] Codec problem
 - [ ] Video duration
-- [ ] Dealing the muted video
+- [ ] Dealing with the muted video
 - [ ] Implementation of cancel event
 - [ ] Fixing the background
 
