@@ -19,6 +19,7 @@ Video is now supported as well as images.
 - [ ] Dealing with the muted video
 - [ ] Implementation of cancel event
 - [ ] Fixing the background
+- [ ] Video controls
 
 
 # Reference
