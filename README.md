@@ -27,6 +27,7 @@ Video is now supported as well as images.
 - App design2: [Bootstrap](https://getbootstrap.jp/docs/4.2/components/spinners/)
 - Overlay labels: [Design memo](https://www.design-memo.com/webdesign/overlay-label)
 - Photo gallery: [Pecopla](https://pecopla.net/web-column/flexbox-1)
+- Display layout: [coder's log](http://clz.webcrow.jp/sample0009.html)
 - Opencv coding: [codec](https://stackoverflow.com/questions/52446597/cant-view-opencv-processed-videos-in-django)
 - Progress bar: [Pyplane](https://www.youtube.com/watch?v=lx0I_nsxvPc&ab_channel=Pyplane)
 - Progress bar2: [Skywill](https://www.sw-mono.blog/entry/2020/01/06/140153)
