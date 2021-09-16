@@ -2,7 +2,7 @@
 Video is now supported as well as images.
 
 
-# ToDo (including future works)
+# ToDo
 - [x] ~~Button decoration~~
 - [x] ~~Video weight reduction~~
 - [x] ~~Progress bar~~
