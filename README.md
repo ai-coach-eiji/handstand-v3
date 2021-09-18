@@ -9,7 +9,7 @@ Video is now supported as well as images.
 - [x] ~~Labeling the estimated videos~~
 - [x] ~~Image layout~~
 - [x] ~~Loading modal with spinner~~
-- [ ] Confirmation modal
+- [x] ~~Confirmation modal~~
 - [x] ~~Voice processing~~
 - [x] ~~Mute implementation~~
 - [x] ~~Thumbnail from video~~
