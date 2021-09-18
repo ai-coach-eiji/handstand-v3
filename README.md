@@ -20,6 +20,8 @@ Video is now supported as well as images.
 - [ ] Implementation of cancel event
 - [ ] Fixing the background
 - [ ] Video controls
+- [ ] Hush the uploaded videos
+- [ ] Download Implementation
 
 
 # Reference
