@@ -40,6 +40,7 @@ Video is now supported as well as images.
 - Form design: [Kal Walkden](https://github.com/kalwalkden/django-materializecss-form)
 - Form update: [Django](https://docs.djangoproject.com/en/3.2/ref/models/instances/#how-django-knows-to-update-vs-insert)
 - Exact length: [stack overflow](https://stackoverflow.com/questions/49048111/how-to-get-the-duration-of-video-using-cv2/58926411#58926411)
+- Video audio: [ffmpeg-python](https://github.com/kkroening/ffmpeg-python)
 
 
 # Author
