@@ -42,7 +42,7 @@ Video is now supported as well as images.
 - Exact length: [stack overflow](https://stackoverflow.com/questions/49048111/how-to-get-the-duration-of-video-using-cv2/58926411#58926411)
 - Video audio: [ffmpeg-python](https://github.com/kkroening/ffmpeg-python)
 - Audio detection: [stack overflow](https://stackoverflow.com/questions/21270048/html5-video-how-to-detect-when-there-is-no-audio-track)
-
+- Audio detection2: [stack overflow](https://stackoverflow.com/questions/64248933/how-to-check-if-a-video-has-sound-in-python)
 
 # Author
 北島栄司 （[https://twitter.com/1220castillo](https://twitter.com/1220castillo)）
