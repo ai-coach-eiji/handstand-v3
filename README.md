@@ -36,7 +36,7 @@ Video is now supported as well as images.
 - Progress bar2: [Skywill](https://www.sw-mono.blog/entry/2020/01/06/140153)
 - Model loading: [BLOG AND DESTROY](https://blog-and-destroy.com/7283)
 - Model loading2: [Pyplane](https://www.youtube.com/watch?v=q2v8SlRdaag&ab_channel=Pyplane)
-- File size: [Ankit Mishra16](https://www.geeksforgeeks.org/validation-of-file-size-while-uploading-using-javascript-jquery/)
+- File size: [AnkitMishra16](https://www.geeksforgeeks.org/validation-of-file-size-while-uploading-using-javascript-jquery/)
 - Form design: [Kal Walkden](https://github.com/kalwalkden/django-materializecss-form)
 - Form update: [Django](https://docs.djangoproject.com/en/3.2/ref/models/instances/#how-django-knows-to-update-vs-insert)
 - Exact length: [stack overflow](https://stackoverflow.com/questions/49048111/how-to-get-the-duration-of-video-using-cv2/58926411#58926411)
