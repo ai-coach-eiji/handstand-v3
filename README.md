@@ -41,6 +41,7 @@ Video is now supported as well as images.
 - Form update: [Django](https://docs.djangoproject.com/en/3.2/ref/models/instances/#how-django-knows-to-update-vs-insert)
 - Exact length: [stack overflow](https://stackoverflow.com/questions/49048111/how-to-get-the-duration-of-video-using-cv2/58926411#58926411)
 - Video audio: [ffmpeg-python](https://github.com/kkroening/ffmpeg-python)
+- Audio detection: [stack overflow](https://stackoverflow.com/questions/21270048/html5-video-how-to-detect-when-there-is-no-audio-track)
 
 
 # Author
