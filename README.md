@@ -14,11 +14,10 @@ Video is now supported as well as images.
 - [x] ~~Mute implementation~~
 - [x] ~~Thumbnail from video~~
 - [x] ~~Implementation of video caption~~
-- [ ] Codec problem
+- [x] ~~Codec problem~~
 - [x] ~~Video duration~~
 - [x] ~~Dealing with the muted video~~
 - [ ] Implementation of cancel event
-- [ ] Fixing the background
 - [ ] Video controls
 - [ ] Hush the uploaded videos
 - [ ] Download Implementation
