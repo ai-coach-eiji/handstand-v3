@@ -20,7 +20,7 @@ Video is now supported as well as images.
 - [ ] Implementation of cancel event
 - [ ] Video controls
 - [ ] Hush the uploaded videos
-- [ ] Download Implementation
+- [ ] Download implementation
 - [ ] Estimation button toggle
 
 
