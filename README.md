@@ -21,6 +21,7 @@ Video is now supported as well as images.
 - [ ] Video controls
 - [ ] Hush the uploaded videos
 - [ ] Download Implementation
+- [ ] Estimation button toggle
 
 
 # Reference
