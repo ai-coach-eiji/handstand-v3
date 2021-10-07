@@ -45,6 +45,7 @@ Video is now supported as well as images.
 - Audio detection2: [stack overflow](https://stackoverflow.com/questions/64248933/how-to-check-if-a-video-has-sound-in-python)
 - Videojs setup: [S.Asahina](https://noauto-nolife.com/post/js-video-controller/)
 - Videojs options: [videojs docs](https://videojs.readthedocs.io/en/latest/guides/options/)
+- Videojs data-setup: [Talha Baig](https://github.com/videojs/video.js/issues/4865)
 
 # Author
 北島栄司 （[https://twitter.com/1220castillo](https://twitter.com/1220castillo)）
