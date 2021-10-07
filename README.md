@@ -18,7 +18,7 @@ Video is now supported as well as images.
 - [x] ~~Video duration~~
 - [x] ~~Dealing with the muted video~~
 - [ ] Implementation of cancel event
-- [ ] Video controls
+- [x] ~~Video controls~~
 - [ ] Hush the uploaded videos
 - [ ] Download implementation
 - [ ] Estimation button toggle
@@ -43,6 +43,8 @@ Video is now supported as well as images.
 - Video audio: [ffmpeg-python](https://github.com/kkroening/ffmpeg-python)
 - Audio detection: [stack overflow](https://stackoverflow.com/questions/21270048/html5-video-how-to-detect-when-there-is-no-audio-track)
 - Audio detection2: [stack overflow](https://stackoverflow.com/questions/64248933/how-to-check-if-a-video-has-sound-in-python)
+- Videojs setup: [S.Asahina](https://noauto-nolife.com/post/js-video-controller/)
+- Videojs options: [videojs docs](https://videojs.readthedocs.io/en/latest/guides/options/)
 
 # Author
 北島栄司 （[https://twitter.com/1220castillo](https://twitter.com/1220castillo)）
