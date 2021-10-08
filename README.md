@@ -22,6 +22,9 @@ Video is now supported as well as images.
 - [ ] Hush the uploaded videos
 - [ ] Download implementation
 - [ ] Estimation button toggle
+- [x] ~~Classification model~~
+- [ ] Label location fix
+
 
 
 # Reference
