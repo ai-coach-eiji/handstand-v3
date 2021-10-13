@@ -1,6 +1,10 @@
 # handstand-v3
 Video is now supported as well as images.
 
+# How does it work?
+
+# How to use it?
+
 
 # ToDo
 - [x] ~~Button decoration~~
