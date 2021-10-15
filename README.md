@@ -54,7 +54,8 @@ Video is now supported as well as images.
 - Videojs options: [videojs docs](https://videojs.readthedocs.io/en/latest/guides/options/)
 - Videojs data-setup: [Talha Baig](https://github.com/videojs/video.js/issues/4865)
 - tflite settings: [tf.lite.Interpreter](https://www.tensorflow.org/api_docs/python/tf/lite/Interpreter)
-- 
+- Coord process: []()
+- LSTM model: [Nicholas Renotte](https://www.youtube.com/watch?v=doDUihpj6ro&t=7355s)
 
 # Author
 北島栄司 （[https://twitter.com/1220castillo](https://twitter.com/1220castillo)）
