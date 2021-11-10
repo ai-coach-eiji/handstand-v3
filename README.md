@@ -23,11 +23,9 @@ Video is now supported as well as images.
 - [x] ~~Dealing with the muted video~~
 - [ ] Implementation of cancel event
 - [x] ~~Video controls~~
-- [ ] Hush the uploaded videos
 - [ ] Download implementation
-- [ ] Estimation button toggle
 - [x] ~~Classification model~~
-- [ ] Label location fix
+- [x] ~~Authentication system~~
 
 
 
@@ -56,6 +54,7 @@ Video is now supported as well as images.
 - tflite settings: [tf.lite.Interpreter](https://www.tensorflow.org/api_docs/python/tf/lite/Interpreter)
 - Coord process: []()
 - LSTM model: [Nicholas Renotte](https://www.youtube.com/watch?v=doDUihpj6ro&t=7355s)
+- 
 
 # Author
 北島栄司 （[https://twitter.com/1220castillo](https://twitter.com/1220castillo)）
