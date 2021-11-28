@@ -26,6 +26,7 @@ Video is now supported as well as images.
 - [ ] Download implementation
 - [x] ~~Classification model~~
 - [x] ~~Authentication system~~
+- [ ] Cloudinary connection
 
 
 
