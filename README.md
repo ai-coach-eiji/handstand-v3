@@ -55,7 +55,7 @@ Video is now supported as well as images.
 - tflite settings: [tf.lite.Interpreter](https://www.tensorflow.org/api_docs/python/tf/lite/Interpreter)
 - Coord process: []()
 - LSTM model: [Nicholas Renotte](https://www.youtube.com/watch?v=doDUihpj6ro&t=7355s)
-- Cloudinary settings: [](https://github.com/klis87/django-cloudinary-storage)
+- Cloudinary settings: [Django Cloudinary Storage](https://github.com/klis87/django-cloudinary-storage)
 - 
 
 # Author
