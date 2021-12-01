@@ -7,6 +7,7 @@ Video is now supported as well as images.
 
 
 # ToDo
+Local Config ---
 - [x] ~~Button decoration~~
 - [x] ~~Video weight reduction~~
 - [x] ~~Progress bar~~
@@ -26,7 +27,7 @@ Video is now supported as well as images.
 - [ ] Download implementation
 - [x] ~~Classification model~~
 - [x] ~~Authentication system~~
----
+Production Config ---
 - [x] ~~Cloudinary connection~~
 - [ ] Update the upload progress bar
 
