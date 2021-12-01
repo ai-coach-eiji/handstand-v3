@@ -29,8 +29,6 @@ Local Config
 - [x] ~~Classification model~~
 - [x] ~~Authentication system~~
 
-<br>
-
 Production Config
 ---
 - [x] ~~Cloudinary connection~~
