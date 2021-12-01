@@ -30,6 +30,7 @@ Local Config
 - [x] ~~Authentication system~~
 
 <br>
+
 Production Config
 ---
 - [x] ~~Cloudinary connection~~
