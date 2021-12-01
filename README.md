@@ -33,6 +33,7 @@ Production Config
 ---
 - [x] ~~Cloudinary connection~~
 - [ ] Update the upload progress bar
+- [ ] Specify the Assets destination
 
 
 
