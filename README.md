@@ -65,6 +65,7 @@ Production Config
 - LSTM model: [Nicholas Renotte](https://www.youtube.com/watch?v=doDUihpj6ro&t=7355s)
 - Cloudinary settings: [Django Cloudinary Storage](https://github.com/klis87/django-cloudinary-storage)
 - Cloudinary Upload API: [Required parameters](https://cloudinary.com/documentation/image_upload_api_reference#upload_required_parameters)
+- Python image transformations: [Direct URL building](https://cloudinary.com/documentation/django_image_manipulation#direct_url_building)
 
 # Author
 北島栄司 （[https://twitter.com/1220castillo](https://twitter.com/1220castillo)）
