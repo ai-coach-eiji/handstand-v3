@@ -35,6 +35,7 @@ Production Config
 - [x] ~~Update the upload progress bar~~
 - [x] ~~Specify the Assets destination~~
 - [ ] Create an URL with hidden username
+- [x] ~~Video process on temp directory~~
 
 
 
@@ -67,6 +68,7 @@ Production Config
 - Cloudinary Upload API: [Required parameters](https://cloudinary.com/documentation/image_upload_api_reference#upload_required_parameters)
 - Python SDK: [Direct URL building](https://cloudinary.com/documentation/django_image_manipulation#direct_url_building)
 - Django Documentation: [user_directory_path](https://docs.djangoproject.com/en/3.2/ref/models/fields/#django.db.models.FileField.upload_to)
+- Python Documentation: [TemporaryDirectory](https://docs.python.org/ja/3/library/tempfile.html#tempfile.TemporaryDirectory)
 
 # Author
 北島栄司 （[https://twitter.com/1220castillo](https://twitter.com/1220castillo)）
