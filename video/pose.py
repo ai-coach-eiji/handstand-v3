@@ -12,7 +12,7 @@ import cv2
 from PIL import Image
 import numpy as np
 import ffmpeg
-import tensorflow as tf
+#import tensorflow as tf
 
 from ffpyplayer.player import MediaPlayer
 
@@ -20,7 +20,7 @@ from django.conf import settings
 
 import cloudinary
 
-class PoseLstm(object):
+'''class PoseLstm(object):
     def __init__(
         self,
         model_path=os.path.join(settings.BASE_DIR, 'video/model/weight1_lstm3.tflite'),
@@ -41,7 +41,7 @@ class PoseLstm(object):
         result = self.interpreter.get_tensor(self.output_details[0]['index']) # get the output
         result_index = np.argmax(result[0])
 
-        return result_index
+        return result_index'''
 
 def extract_keypoints(image, results):
     image_width, image_height = image.shape[1], image.shape[0]
@@ -117,7 +117,7 @@ def pose_function(make_progress_func, input_video, dst, thumbnail_path, audio_fl
             min_tracking_confidence=0.5) as pose:
 
             # Pre-trained model of LSTM (handstand)
-            pose_lstm = PoseLstm()
+            #pose_lstm = PoseLstm()
 
             # Create a progress list
             f_percent = [round(total_frame * i, 0) for i in np.arange(0.01, 1.01, 0.01)]
@@ -153,10 +153,11 @@ def pose_function(make_progress_func, input_video, dst, thumbnail_path, audio_fl
                     pose_lstm_coords.append(keypoints)
 
                     if len(pose_lstm_coords) == 15:
-                        pose_id = pose_lstm(np.expand_dims(pose_lstm_coords, axis=0))
-                        print(actions[pose_id])
-                        cv2.putText(annotated_image, 'Pose: {}'.format(actions[pose_id]),
-                            (30, 250), cv2.FONT_HERSHEY_SIMPLEX, 1.5, (0, 255,255), thickness=2)
+                        pass
+                        #pose_id = pose_lstm(np.expand_dims(pose_lstm_coords, axis=0))
+                        #print(actions[pose_id])
+                        #cv2.putText(annotated_image, 'Pose: {}'.format(actions[pose_id]),
+                            #(30, 250), cv2.FONT_HERSHEY_SIMPLEX, 1.5, (0, 255,255), thickness=2)
                     
                 writer.write(annotated_image)
                 
