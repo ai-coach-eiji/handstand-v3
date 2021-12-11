@@ -1,0 +1,6 @@
+{% load static %}
+
+<video id="video" class="video" muted autoplay loop playsinline>
+    <source id="video-url" src="{{ result_video.video_file }}" poster="" type="video/mp4">
+    <!--<source id="video-url" src="{% static result_video.video_file.url %}" poster="{% static result_video.thumbnail.url %}" type="video/mp4">-->
+</video>
