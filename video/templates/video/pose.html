@@ -1,4 +1,3 @@
-<!-- 親テンプレートを読み込む-->
 {% extends 'video/base.html' %}
 {% load static %}
 
@@ -79,38 +78,34 @@
             const delBtn = document.getElementById('del-btn')
             const checkBox = document.getElementById('check-box')
             
-            //プログレスバー表示部分の初期状態
+            // Initial state of the progress bar display area
             const progresshtml = '<div id="progress"><div class="indeterminate"></div></div>';
 
-            //処理開始ボタンが押された時の処理
+            // Process when the start_button is pressed.
             $("#start_button").on("click", function (event) {
                 delBtn.innerHTML = ""
-                console.log("start")
                 let timer_id = 0;
                 let url = "{% url 'video:setup' %}"
                 $("#start_button").attr({ "disabled": true })
-                //進捗管理インスタンス作成部分
+                // Create the progress management instance
                 $.get(url, {},
                     function (data) {
-                        console.log("get")
                         let pk = data
-                        console.log("Data Loaded: " + data);
-
-                        //プログレスバーを0.3秒ごとに取得開始
+                        // Start getting the progress bar every 0.3 seconds.
                         timer_id = setInterval(function () { ShowProgressBar(pk) }, 300)
-                        //時間のかかる処理を開始
+                        // Start time-consuming process
                         GetPose(pk)
                     }
                 );
-                //プログレスバーの取得
+                // Get the progress bar
                 function ShowProgressBar(progress_pk) {
                     $.get("{% url 'video:show_progress' %}", { progress_pk: progress_pk },
                         function (data) {
-                            console.log("Data Loaded: " + data);
+                            // console.log("Data Loaded: " + data);
                             $("#progress").replaceWith(data);
-                            // フレーム処理で一旦終了
+                            // Change process bar once the processing of the frames are completed
                             if (document.getElementById("complete")){
-                                //プログレスバー更新をやめる
+                                // Stop updating the progress bar
                                 clearInterval(timer_id);
                                 let complete = document.getElementById('complete')
                                 complete.classList.add('indeterminate')
@@ -118,16 +113,13 @@
                         }
                     );
                 }
-                //時間のかかる処理
+                // Time-consuming process
                 function GetPose(progress_pk) {
-                    $.get("{% url 'video:do_something' video.id %}", { progress_pk: progress_pk },
+                    $.get("{% url 'video:pose_estimation' video.id %}", { progress_pk: progress_pk },
                         function (data) {
                             console.log("Data Loaded: " + data);
                             
-                            
-                            //プログレスバー部分を元の状態に戻す
-                            //$("#progress").replaceWith(progresshtml)
-                            //処理結果表示
+                            // Display the process result 
                             $("#video").replaceWith(data)
                             //$("#start_button").attr({ "disabled": false })
                             //Card.innerHTML = ""
@@ -158,7 +150,6 @@
                         {
                             var videoId = data.video_id;
                             window.location.href = "{% url 'video:gallery' %}";
-                            //$('div').remove('#'+videoId);
                         }
                     }
                 }); 

@@ -92,7 +92,6 @@ def home(request):
                 thumbnail_name = '{}_{}.jpg'.format(video_name, time)
                 #thumbnail_path = os.path.join("thumbnail", thumbnail_name)
                 #dst_path = os.path.join(settings.MEDIA_ROOT, thumbnail_name)
-                #dst_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), thumbnail_name)
                 
                 ret, image = cap.read()
                 if not ret:
@@ -170,8 +169,7 @@ def set_argument(pk):
     return functools.partial(make_progress, pk=pk)
 
 @login_required
-def do_something(request, video_id):
-    """時間のかかる関数を実行する"""
+def pose_estimation(request, video_id):
     if "progress_pk" in request.GET:
         progress_pk = request.GET.get("progress_pk")
         

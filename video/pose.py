@@ -98,10 +98,8 @@ def pose_function(make_progress_func, input_video, dst, thumbnail_path, audio_fl
     display_url, video_url = None, None
     
     with tempfile.TemporaryDirectory() as dname:
-        print("一時ディレクトリ名: ", dname)
-        print("一時ディレクトリが作成されたかを確かめる: ", os.path.exists(dname)) # True
-        #with open(os.path.join(dname, "test.txt"), "w") as f:
-            #print("test", file=f)
+        print("temporary directory name: ", dname)
+        print("Verify if temporary directory has been created: ", os.path.exists(dname)) # True
 
         #output_path = dst+'test.mp4'
         output_path = dname+'/estimated.mp4'
@@ -206,6 +204,6 @@ def pose_function(make_progress_func, input_video, dst, thumbnail_path, audio_fl
         video_url = cloudinary.CloudinaryImage(str(video_res)).build_url()
         print("video url: ", video_url)
 
-    print("破棄する（一時ディレクトリが存在するかどうか）: ", os.path.exists(dname))     # False
+    print("Verify if temporary directory exist: ", os.path.exists(dname)) # False
 
     return display_url, video_url
