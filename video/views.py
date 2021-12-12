@@ -144,7 +144,7 @@ def gallery(request):
         return render(request, 'video/404.html')
 
 def setup(request):
-    """進捗管理インスタンスを作成する"""
+    """Create a progress management instance"""
     progress = Progress.objects.create()
     return HttpResponse(progress.pk)
 
@@ -160,23 +160,21 @@ def show_progress(request):
         return HttpResponse("Error")
 
 def make_progress(pk):
-    """引数のプライマリーキーに紐づく進捗を進める"""
+    """Proceed with the progress associated with the primary key"""
     progress = get_object_or_404(Progress, pk=pk)
     progress.now += 1
     progress.save()
 
-def set_hikisuu(pk):
-    """引数を固定する"""
+def set_argument(pk):
+    """Fix the argument"""
     return functools.partial(make_progress, pk=pk)
 
 @login_required
 def do_something(request, video_id):
     """時間のかかる関数を実行する"""
     if "progress_pk" in request.GET:
-        # progress_pkが指定されている場合の処理
         progress_pk = request.GET.get("progress_pk")
-        #result = slow_function(set_hikisuu(progress_pk))
-
+        
         video_obj = VideoCloudinary.objects.get(id=video_id)
         #video_obj = VideoPost.objects.get(id=video_id)
         video_name = video_obj.video_file.name
@@ -198,7 +196,7 @@ def do_something(request, video_id):
         output = 'media/videos/{}/'.format(video_obj.user.id)
         print("output path: ", output)
 
-        display_url, video_url = pose_function(set_hikisuu(progress_pk), input_video, output, thumbnail_path, audio_flag)
+        display_url, video_url = pose_function(set_argument(progress_pk), input_video, output, thumbnail_path, audio_flag)
 
         result_id = None
         
@@ -218,7 +216,6 @@ def do_something(request, video_id):
         
         return render(request, "video/result.html", {'result_video': result_video})
     else:
-        # progress_pkが指定されていない場合の処理
         return HttpResponse("Error")
 
 @login_required
