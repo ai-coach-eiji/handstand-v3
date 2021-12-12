@@ -149,15 +149,14 @@ def setup(request):
     return HttpResponse(progress.pk)
 
 def show_progress(request):
-    """時間のかかる関数を実行する"""
+    """Run the function"""
     if "progress_pk" in request.GET:
-        # progress_pkが指定されている場合の処理
+        # Process when progress_pk is specified
         progress_pk = request.GET.get("progress_pk")
         progress = get_object_or_404(Progress, pk=progress_pk)
         percent = str(int(progress.now / progress.total * 100)) + "%"
         return render(request, "video/progress_bar.html", {"percent": percent})
     else:
-        # progress_pkが指定されていない場合の処理
         return HttpResponse("Error")
 
 def make_progress(pk):
