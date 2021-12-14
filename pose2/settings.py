@@ -29,7 +29,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 #BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 env = environ.Env()
-env.read_env(os.path.join(BASE_DIR,'.env'))
+env.read_env('.env')
 
 SECRET_KEY = env('SECRET_KEY')
 
