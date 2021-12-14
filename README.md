@@ -70,6 +70,7 @@ Production Config
 - Django Documentation: [user_directory_path](https://docs.djangoproject.com/en/3.2/ref/models/fields/#django.db.models.FileField.upload_to)
 - Loading video on memory: [rgov](https://stackoverflow.com/questions/40290770/opencv-loading-video-in-the-memory)
 - Python Documentation: [TemporaryDirectory](https://docs.python.org/ja/3/library/tempfile.html#tempfile.TemporaryDirectory)
+- Heroku with PostgreSQL Database: [Code Aura](https://www.youtube.com/watch?v=5d8AQFF0Ot0&t=719s)
 
 # Author
 北島栄司 （[https://twitter.com/1220castillo](https://twitter.com/1220castillo)）
