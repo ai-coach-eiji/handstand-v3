@@ -1,5 +1,5 @@
 from django import forms
-from .models import VideoPost, VideoCloudinary
+from .models import VideoCloudinary
 from cloudinary.forms import CloudinaryFileField
 from cloudinary.forms import CloudinaryJsFileField
 
@@ -10,7 +10,6 @@ class VideoForm(forms.ModelForm):
     
     class Meta:
         model = VideoCloudinary
-        #model = VideoPost
         fields = ['video_file']
         widgets = {
             'video_file': forms.FileInput(attrs={'accept': 'video/*'})

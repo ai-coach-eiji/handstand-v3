@@ -13,7 +13,7 @@ from subprocess import check_output
 from .utils import has_audio_streams
 
 from .forms import VideoForm
-from .models import VideoPost, Progress, VideoCloudinary
+from .models import Progress, VideoCloudinary
 
 from django.contrib import messages
 from django.conf import settings

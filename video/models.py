@@ -12,16 +12,6 @@ def user_directory_path(instance, filename):
     # file will be uploaded to MEDIA_ROOT/user_<id>/<filename>
     return 'videos/{0}/{1}'.format(instance.user.id, filename)
 
-class VideoPost(models.Model):
-    video_file = models.FileField()
-    thumbnail = models.ImageField(upload_to='thumbnail/', blank=True, null=True)
-    is_estimated = models.BooleanField(default=False)
-
-    user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE, default=1)
-
-    def __str__(self):
-        return str(self.video_file.name)
-
 
 class Progress(models.Model):
     """Progress Management Model"""
