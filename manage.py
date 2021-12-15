@@ -3,8 +3,6 @@
 import os
 import sys
 
-#os.environ.setdefault("DJANGO_SETTINGS_MODULE", "pose2.settings.local")
-
 
 def main():
     """Run administrative tasks."""

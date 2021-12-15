@@ -18,11 +18,10 @@ import cloudinary.uploader
 import cloudinary.api
 
 import django_heroku
-import dj_database_url
 import environ
 
-DEBUG = False
-ALLOWED_HOSTS = ['https://ai-coach-eiji-handstand-v3.herokuapp.com/']
+DEBUG = True
+ALLOWED_HOSTS = ['*', 'https://ai-coach-eiji-handstand-v3.herokuapp.com/']
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -136,12 +135,12 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-# Data base
-DATABASES = { 
-    'default': env.db(),
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
 }
-db_from_env = dj_database_url.config(conn_max_age=600, ssl_require=True)
-DATABASES['default'].update(db_from_env)
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
